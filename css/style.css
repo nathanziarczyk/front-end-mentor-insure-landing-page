@@ -217,6 +217,7 @@ footer {
   background: var(--secondary-very-light-gray);
   padding: 2rem 0;
   position: relative;
+  padding-bottom: 4rem;
 }
 
 footer .icons {
@@ -263,4 +264,34 @@ footer .bg {
 footer .lists ul li:first-of-type {
   margin: 1rem 0;
   color: var(--primary-grayish-blue);
+}
+
+footer .attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*MEDIA*/
+
+@media screen and (max-width: 1340px) {
+  .container {
+    margin: 0 6rem;
+  }
+
+  .banner .image {
+    right: 6rem;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .container {
+    margin: 0 4rem;
+  }
+
+  .banner .image {
+    right: 4rem;
+  }
 }
